@@ -9,9 +9,6 @@ for i in range(word_length):
     print("_ ",end="")
 display=[]
 lives=6
-# Clear Screen command in python
-def cls():
-    os.system('cls' if os.name == 'nt' else 'clear')
 stages = ['''
   +---+
   |   |
@@ -75,6 +72,7 @@ end=False
 while not end:
     guess = input("\nGuess a letter: ")
     guess = guess.lower()
+    os.system("cls")
     for i in range(word_length):
         letter=selected_word[i]
         if (guess==letter):
