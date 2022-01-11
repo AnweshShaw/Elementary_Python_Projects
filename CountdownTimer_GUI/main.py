@@ -5,7 +5,7 @@ FONT_NAME = "Courier"
 MIN = 1
 timer = None
 RED = "#e7305b"
-GREEN = "#9bdeac"
+GREEN = "#006400"
 
 # Resetting Timer
 def reset_timer():
