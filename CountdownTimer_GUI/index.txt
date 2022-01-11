@@ -1,1 +1,1 @@
-Hi
+This is a timer whose GUI I designed using python , which keeps a track of time like a normal timer and shows a message of time up when the countdown is finished. It has a start and reset button like a normal timer which can be clicked.
