@@ -1,4 +1,5 @@
 from tkinter import *
+from tkinter import messagebox
 import math
 
 FONT_NAME = "Courier"
@@ -33,6 +34,7 @@ def countdown(count):
         global timer
         timer = window.after(1000, countdown, count - 1)
     else:
+        messagebox.showinfo(title="Message",message="Time is up!!!")
         checkmark.config(text="Time Up ✔", fg=GREEN)
         checkmark.place(x=110, y=300)
 
