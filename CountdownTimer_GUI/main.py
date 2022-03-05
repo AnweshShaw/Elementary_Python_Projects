@@ -40,8 +40,8 @@ title_label.place(x=100, y=0)
 
 canvas = Canvas(width=400, height=450, bg="cyan")
 clock_img = PhotoImage(file="image__3_-removebg-preview.png")
-canvas.create_image(200, 200, image=clock_img)
-timer_text = canvas.create_text(200, 190, text="00:00", fill="red2", font=(FONT_NAME, 60, "bold"))
+canvas.create_image(200, 225, image=clock_img)
+timer_text = canvas.create_text(200, 215, text="00:00", fill="red2", font=(FONT_NAME, 60, "bold"))
 canvas.pack()
 
 label = Label(text="MIN: ",bg="cyan",font="bold")
