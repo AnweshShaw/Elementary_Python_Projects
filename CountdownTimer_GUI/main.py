@@ -3,7 +3,6 @@ from tkinter import messagebox
 import math
 
 FONT_NAME = "Courier"
-# MIN = 1/4
 timer = None
 RED = "#e7305b"
 GREEN = "#006400"
