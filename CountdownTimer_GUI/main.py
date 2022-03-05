@@ -29,7 +29,7 @@ def countdown(count):
     else:
         messagebox.showinfo(title="Message", message="Time is up!!!")
         checkmark.config(text="Time Up ✔", fg=GREEN)
-        checkmark.place(x=110, y=300)
+        checkmark.place(x=110, y=315)
 
 
 # Creating UI
@@ -60,10 +60,17 @@ spin2.place(x=235, y=43)
 def click():
     MIN = int(spin.get())
     SEC = int(spin2.get())
-
+    count = int(MIN * 60)+SEC
+    min_count = math.floor(count / 60)
+    sec_count = count % 60
+    if min_count < 10:
+        min_count = f"0{min_count}"
+    if sec_count < 10:
+        sec_count = f"0{sec_count}"
+    canvas.itemconfig(timer_text, text=f"{min_count}:{sec_count}")
     # Timer functioning
     def start_timer():
-        countdown(int(MIN * 60)+SEC)
+        countdown(count)
         checkmark.config(text="")
 
     start_button = Button(text="Start ", highlightthickness=0, command=start_timer, bd=5)
@@ -76,3 +83,4 @@ reset_button.place(x=250, y=370)
 checkmark = Label(text="Time Up ✔", fg=GREEN, font=("Algerian", 30, "bold"))
 
 window.mainloop()
+
