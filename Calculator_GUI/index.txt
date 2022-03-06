@@ -1,0 +1,3 @@
+This is a simple calculator with a GUI made using Python. It is like an on-screen calculator which can perform elementary functions like addition, subtraction
+,multiplication,division,modulus and calculate square root of any number. It works like any other mormal calculator that you would use in your daily use. The UI is currently simple
+and with not much in it, however, it can perform the main work which the calculator does,ie performing calculations.
