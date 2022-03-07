@@ -1,1 +1,2 @@
-This program creates a password manager which can store all of your passwords and keep a track of it. This program also uses pop up boxes which are made using tkinter message box.
+This program creates a password manager which can store all of your passwords and keep a track of it. 
+This program also uses pop up boxes which are made using tkinter message box in Python.
