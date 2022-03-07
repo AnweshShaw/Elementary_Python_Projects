@@ -1,0 +1,1 @@
+This is a simple Tic-Tac-Toe game which can be played between 2 players. It consists of a GUI which is made using Python.
