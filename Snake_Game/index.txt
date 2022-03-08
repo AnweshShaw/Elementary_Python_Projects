@@ -1,0 +1,2 @@
+This game is similar to the Snake Game which you might have played in your Nokia 3310 mobile.
+In this game, the snake chases the food on the screen to eventually get bigger.
