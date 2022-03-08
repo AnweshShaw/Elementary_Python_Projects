@@ -1,0 +1,2 @@
+This game is like a computer version of pong or table-tennis played between 2 players.
+This game is made using the turtle library in Python.
